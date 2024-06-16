@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+   -webkit-font-smoothing:antialiased;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+  }
+  
+  img{
+  max-width: 100%;
+  display: flex;
+  }
+  
+  a{
+    display: inline;
+    text-decoration: none;
+  } 
+  ul{
+    list-style: none;
+    
+  }
+  button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  html{
+  font-size: 62.5%;
+  background-color:var(--gray-dark-00);
+  color: var(--gray-light-03);
+  }
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  

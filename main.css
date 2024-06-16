@@ -1,0 +1,74 @@
+header{
+    width: 100%;
+    height: 8.8rem;
+    display: flex;
+    align-items: center; 
+}
+header .container{
+    display: flex;
+    justify-items: center;
+ 
+}
+header nav{
+    display:flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+header nav ul{
+    display: inline-block;
+    gap: 2rem;
+}
+header nav ul li a{
+    color: var(--gray-light-05);
+    font-size: 2.0rem;
+    letter-spacing: -0.48px;
+    transition: opacity .3s ease;
+    margin-left:30.2rem;
+    left: 457px;
+    justify-content: space-between 10px;
+}
+header nav ul li a:hover{
+    opacity: 0.8;
+}
+header nav ul li a#primario{
+    left: 30.0rem;
+    margin-top:4px; /* Subtrai 25px do valor original */
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 10.7rem;
+    position: absolute;
+}
+
+header nav ul li a#secundario{
+    left: 400px;
+    color: #FFF;
+    font-family:Inter;
+    margin-top: 4px; /* Adiciona 25px de margem superior */
+    position: absolute;
+    display: inline-block;
+    font-weight: 800;
+}
+section .text h1{
+    color: var(--gray-light-05);
+    margin-left: 10.1rem;
+    font-family: Mohave;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+section .text p{
+    margin-left: 10.1rem;
+    color: var(--gray-dark-06);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
