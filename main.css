@@ -9,16 +9,16 @@ header .container{
     justify-items: center;
  
 }
-header nav{
+nav{
     display:flex;
     align-items: center;
     gap: 3.2rem;
 }
-header nav ul{
+nav ul{
     display: inline-block;
     gap: 2rem;
 }
-header nav ul li a{
+nav ul li a{
     color: var(--gray-light-05);
     font-size: 2.0rem;
     letter-spacing: -0.48px;
@@ -27,10 +27,10 @@ header nav ul li a{
     left: 457px;
     justify-content: space-between 10px;
 }
-header nav ul li a:hover{
+nav ul li a:hover{
     opacity: 0.8;
 }
-header nav ul li a#primario{
+nav ul li a#primario{
     left: 30.0rem;
     margin-top:4px; /* Subtrai 25px do valor original */
     color: #FFF;
@@ -44,7 +44,7 @@ header nav ul li a#primario{
     display: flex;
 }
 
-header nav ul li a#secundario{
+nav ul li a#secundario{
     left: 400px;
     color: #FFF;
     font-family:Inter;

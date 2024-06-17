@@ -357,13 +357,6 @@ section#pricipal {
   padding: 0 25px 35px 25px;
 }
 
-.swiper-slide svg {
-  color: #fff;
-  width: 10px;
-  height: 10px;
-  margin-right: 7px;
-}
-
 .swiper-slide--one {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
       url(public/images/corte1.png)
