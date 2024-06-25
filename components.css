@@ -5,7 +5,7 @@
     font-weight: 600;
     line-height: 100%;
     letter-spacing: -0.48px;
-    margin-left: 113.6rem;
+    margin-left:900%;
     border-radius: 32px;
     border: 1.5px solid var(--gray-dark-05);
     display:flex;
@@ -231,29 +231,33 @@
   .container input::placeholder {
     color: #fff;
   }
-  section .imagem-principal{ 
+  .imagem-principal{ 
+    max-width: 100%;
     width: 500px;
     height: 204px;
     flex-shrink: 0;
-    margin-left: 113.8rem;
+    margin-left:90%;
     width: 154px;
     height: 102px;
     margin-top: 200px;
     gap: 0px;
     opacity: 0px;
     right: 278px;
+    display:flexbox;
+    position:relative;
   }
-  section .imagem-secundaria{ 
+  .imagem-secundaria{ 
     width: 308px;
     height: 204px;
     flex-shrink: 0;
-    margin-left: 130.0rem;
+    margin-left: 90%;
     width: 154px;
     height: 102px;
     margin-top: -102px;
-    left: 1182px;
     gap: 0px;
     margin-bottom: 10.5rem;
+    display: flexbox;
+    position:absolute ; 
   }
   h6#text4{
     color: var(--gray-light-05);
@@ -383,4 +387,40 @@ section#pricipal {
 .swiper-3d .swiper-slide-shadow-left,
 .swiper-3d .swiper-slide-shadow-right {
   background-image: none;
+}
+.background1{
+  width: 200%;
+  height: 200%;
+  margin-left:7%;
+  position: relative;
+  display: inline-block;
+
+}
+#background2{
+width: 43%;
+}
+ #barbearia-text-1{
+  position: absolute;
+  top: 145px;
+  right: 20px;
+  font-size: 40px;
+  color: black;
+  text-shadow: 0px 0px 5px black;
+}.container44 {
+  position: relative;
+}
+
+#background2 {
+  position: absolute;
+}
+
+#texto {
+  z-index:2 ;
+  position: absolute;
+  font-size: 5rem;
+  left: 11%;
+  top: 400px;
+}
+#texto #texto1 {
+  position: absolute;
 }
